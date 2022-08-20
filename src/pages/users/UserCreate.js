@@ -26,7 +26,7 @@ export default function UserCreate() {
           <Typography variant="h4" gutterBottom>
             Add User
           </Typography>
-          <Button variant="contained" component={RouterLink} to="../user" startIcon={<Iconify icon="eva:plus-fill" />}>
+          <Button variant="contained" component={RouterLink} to="../user" startIcon={<Iconify icon="eva:arrow-ios-back-fill" />}>
             Back
           </Button>
         </Stack>

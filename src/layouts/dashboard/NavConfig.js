@@ -14,7 +14,7 @@ const navConfig = [
   {
     title: 'Users',
     path: '/dashboard/user',
-    icon: getIcon('eva:people-fill'),
+    icon: getIcon('ri:customer-service-2-fill'),
   },
   {
     title: 'Customers',
@@ -24,12 +24,12 @@ const navConfig = [
   {
     title: 'Tickets',
     path: '/dashboard/ticket',
-    icon: getIcon('eva:people-fill'),
+    icon: getIcon('heroicons-outline:ticket'),
   },
   {
     title: 'Log',
     path: '/dashboard/log',
-    icon: getIcon('eva:people-fill'),
+    icon: getIcon('icon-park-outline:log'),
   },
   // {
   //   title: 'product',

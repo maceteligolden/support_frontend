@@ -26,7 +26,7 @@ export default function CustomerCreate() {
           <Typography variant="h4" gutterBottom>
             Add Customer
           </Typography>
-          <Button variant="contained" component={RouterLink} to="../customer" startIcon={<Iconify icon="eva:plus-fill" />}>
+          <Button variant="contained" component={RouterLink} to="../customer" startIcon={<Iconify icon="eva:arrow-ios-back-fill" />}>
             Back
           </Button>
         </Stack>

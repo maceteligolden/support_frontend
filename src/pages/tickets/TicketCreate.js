@@ -26,7 +26,7 @@ export default function TicketCreate() {
           <Typography variant="h4" gutterBottom>
             Add Ticket
           </Typography>
-          <Button variant="contained" component={RouterLink} to="../ticket" startIcon={<Iconify icon="eva:plus-fill" />}>
+          <Button variant="contained" component={RouterLink} to="../ticket" startIcon={<Iconify icon="eva:arrow-ios-back-fill" />}>
             Back
           </Button>
         </Stack>
