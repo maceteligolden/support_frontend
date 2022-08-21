@@ -4,7 +4,6 @@
   "licence": "MIT",
   "version": "1.5.0",
   "private": false,
-  "homepage": "index.html",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
