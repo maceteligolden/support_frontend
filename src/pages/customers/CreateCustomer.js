@@ -1,19 +1,30 @@
-
 import { Link as RouterLink } from 'react-router-dom';
 // material
+import { styled } from '@mui/material/styles';
 import {
   Container,
   Button,
   Typography,
-  Stack
+  Stack,
+  Card
 } from '@mui/material';
 import Iconify from '../../components/Iconify';
 // components
 import Page from '../../components/Page';
+// sections
+import { CreateCustomerForm } from '../../sections/customer/index';
 
 
 // ----------------------------------------------------------------------
 
+const ContentStyle = styled('div')(({ theme }) => ({
+  maxWidth: 'auto',
+  minHeight: 'auto',
+  display: 'flex',
+  justifyContent: 'flex-start',
+  flexDirection: 'column',
+  padding: theme.spacing(5, 5),
+}));
 
 export default function CustomerCreate() {
 
@@ -28,6 +39,11 @@ export default function CustomerCreate() {
             Back
           </Button>
         </Stack>
+        <Card>
+            <ContentStyle>
+                <CreateCustomerForm />
+            </ContentStyle>
+        </Card>
       </Container>
     </Page>
   );
