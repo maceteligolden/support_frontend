@@ -19,6 +19,7 @@ import NotFound from './pages/Page404';
 import Register from './pages/Register';
 import Products from './pages/Products';
 import DashboardApp from './pages/DashboardApp';
+import HelpRequest from './pages/HelpRequest';
 
 // ----------------------------------------------------------------------
 
@@ -42,6 +43,10 @@ export default function Router() {
         { path: 'products', element: <Products /> },
         { path: 'blog', element: <Blog /> },
       ],
+    },
+    {
+      path: 'Helprequest',
+      element: <HelpRequest />
     },
     {
       path: 'login',

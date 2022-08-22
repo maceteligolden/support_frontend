@@ -1,18 +1,29 @@
 import { Link as RouterLink } from 'react-router-dom';
 // material
+import { styled } from '@mui/material/styles';
 import {
   Container,
   Button,
   Typography,
-  Stack
+  Stack,
+  Card
 } from '@mui/material';
 import Iconify from '../../components/Iconify';
 // components
 import Page from '../../components/Page';
+// sections
+import { RegisterForm } from '../../sections/auth/register';
 
 
 // ----------------------------------------------------------------------
-
+const ContentStyle = styled('div')(({ theme }) => ({
+  maxWidth: 'auto',
+  minHeight: 'auto',
+  display: 'flex',
+  justifyContent: 'flex-start',
+  flexDirection: 'column',
+  padding: theme.spacing(5, 5),
+}));
 
 export default function TicketCreate() {
 
@@ -27,6 +38,11 @@ export default function TicketCreate() {
             Back
           </Button>
         </Stack>
+        <Card>
+            <ContentStyle>
+                <RegisterForm />
+            </ContentStyle>
+        </Card>
       </Container>
     </Page>
   );

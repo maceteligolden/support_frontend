@@ -22,7 +22,7 @@ export default function Log() {
         </Stack>
 
         <AppOrderTimeline
-              title="Order Timeline"
+              title="Activity Log"
               list={[...Array(5)].map((_, index) => ({
                 id: faker.datatype.uuid(),
                 title: [
